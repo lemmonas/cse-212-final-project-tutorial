@@ -12,25 +12,25 @@ Say you're writing and essay on your computer and you accidentally delete the la
 
 ## Applicable Functions
 
-Push: The push function adds data to the end of the stack. Python code example: 
+**Push**: The push function adds data to the end of the stack. Python code example: 
 
 ```python
 ex_stack.append(data)
 ```
 
-Pop: The pop function removes the last piece of data that was added to the stack. Python code example: 
+**Pop**: The pop function removes the last piece of data that was added to the stack. Python code example: 
 
 ```python
 data = ex_stack.pop()
 ```
 
-Size: the size function prints the number of items the stack contains. Python code example: 
+**Size**: the size function prints the number of items the stack contains. Python code example: 
 
 ```python
 size = len(ex_stack)
 ```
 
-Empty: The empty function tells you whether the stack contains any data. Python code example: 
+**Empty**: The empty function tells you whether the stack contains any data. Python code example: 
 
 ```python
 if len(ex_stack) == 0:

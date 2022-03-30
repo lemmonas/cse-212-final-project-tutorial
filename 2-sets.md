@@ -1,5 +1,16 @@
 # Sets
 
+## Introduction
+
+## How it works
+
+## Applicable Functions
+
+## Big O Notation
+
+## Example code
+
+## Example problem
 
 [Next section](3-trees.md)
 

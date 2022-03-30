@@ -6,7 +6,7 @@ The first topic we'll cover is stacks. Stacks keep track of the order data is ad
 
 ## How it Works
 
-Because stacks keep track of the order data is added, the order in which it is removed from the stack is the reverse of how it was added. 
+Because stacks keep track of the order data is added, the order in which it is removed from the stack is the reverse of how it was added. When initializing a stack, you use brackets whether you're starting with an empty stack or not.
 
 Say you're writing and essay on your computer and you accidentally delete the last few sentences you wrote, so you hit the undo button to get your work back. The undo button only works because the word processor uses a stack to keep track of all of the edits you make. Everything you type is added to the stack, and the undo button pulls the last letters you typed off the stack and puts them back in your document.
 
@@ -41,7 +41,7 @@ This function can also be modified to have the program check for other lengths a
 
 ## Big O Notation
 
-The Big O notation for each individual function is O(1). The performance of a program with multiple stack manipulation functions would also be O(1) because in O notation we only take the highest order present. A program with multiple functions of O(1) would just have all of those ones added together and because O notation removes constants, the end result would still be O(1). However, if you have a program that uses a loop on the stack, the O notation would change to O(n).
+The big O notation for each individual function is O(1). The performance of a program with multiple stack manipulation functions would also be O(1) because in O notation we only take the highest order present. A program with multiple functions of O(1) would just have all of those ones added together and because O notation removes constants, the end result would still be O(1). However, if you have a program that uses a loop on the stack, the O notation would change to O(n).
 
 ## Example Code
 
@@ -65,6 +65,6 @@ As practice, try to write a program for what happens when you visit a new websit
 
 [Example solution file](stack-ex-solution.py)
 
-[Back to start](0-welcome.md)
+[**Next section**](2-sets.md)
 
-[Next section](2-sets.md)
+[Back to start](0-welcome.md)

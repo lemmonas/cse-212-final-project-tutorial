@@ -1,9 +1,9 @@
-site_history = []
+site_history = [] #Empty set to hold the sites that have been visited
 def new_site(site):
-    site_history.append(site)
+    site_history.append(site) #Add the new site to the history
 
 def prev_site():
-    site_history.pop()
+    site_history.pop() #Remove the most recent site from the history
 
 '''
 Test cases

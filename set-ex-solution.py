@@ -1,12 +1,15 @@
-signed_up = set()
-def single_sign_up(name):
-    length = len(signed_up)
-    signed_up.add(name)
-    if length == len(signed_up):
-        print("Sorry! You've already signed up")
+letters = set()
+def letters_guessed(guess, word):
+    length = len(letters)
+    letters.add(guess)
+    if length == len(letters):
+        print("Letter has already been guessed.")
+    elif guess in word:
+        print("You've guessed a correct letter!")
     else:
-        print("Sign up successful!")
+        print("Sorry, that letter isn't in the word.")
 
-single_sign_up("Bob")
-single_sign_up("Sue")
-single_sign_up("Sue")
+#Test cases
+letters_guessed("s", "share")
+letters_guessed("t", "share")
+letters_guessed("t", "share")

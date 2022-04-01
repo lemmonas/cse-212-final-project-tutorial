@@ -59,6 +59,8 @@ def reverse_list(my_list):
     return rev_stack
 ```
 
+The first variable, `stack`, contains an empty stack to hold the original list and `rev_stack` will hold the reversed list. The `for` loop will take every item in the list and add it to the stack. The `while` loop will take each item off the original stack and add it to the new stack.
+
 ## Example Problem
 
 As practice, try to write a program for what happens when you visit a new website, and then click the back button.

@@ -68,9 +68,11 @@ def single_sign_up(name):
         print("Sign up successful!")
 ```
 
+The `length` variable holds the original length of the set containing who's signed up. Then, the next person to sign up is added to the set. The `if` statement compares the original length to the new length to determine whether the person currently trying to sign up has already signed up.
+
 ## Example problem
 
-Suppose you have been assigned to write a program that 
+Suppose you have been assigned to write a program that keeps track of what letters a player has guessed in an online hangman game, and also gives the appropriate responses to each letter guessed.
 
 [Example solution file](set-ex-solution.py)
 

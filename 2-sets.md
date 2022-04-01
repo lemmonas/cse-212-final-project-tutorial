@@ -6,7 +6,11 @@ Next up is sets. Sets don't keep track of the order data is added like stacks do
 
 ## How it works
 
-Sets use something called hashing to assign each piece of data a location within the set. Because everything has an assigned location, data that has already been inserted can't be inserted a second time. When initializing a set, you use curly braces if you're already filling the set and parenthesis with `set` in front of them for an empty set.
+Sets use something called hashing to assign each piece of data a location within the set. Because everything has an assigned location, data that has already been inserted can't be inserted a second time. When initializing a set, you use curly braces if you're already filling the set and parenthesis with `set` in front of them for an empty set, like so:
+
+```python
+my_set = set()
+```
 
 ## Applicable Functions
 
@@ -51,7 +55,7 @@ Intersections and unions can also be written as a function with multiple lines o
 
 ## Big O Notation
 
-The big O notation for each individual function is O(1). In a program with multiple set manipulation functions, the performance will stil be O(1). 
+The big O notation for each individual function is O(1). In a program with multiple set manipulation functions, the performance will still be O(1). 
 
 ## Example code
 

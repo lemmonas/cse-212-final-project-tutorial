@@ -6,7 +6,15 @@ The first topic we'll cover is stacks. Stacks keep track of the order data is ad
 
 ## How it Works
 
-Because stacks keep track of the order data is added, the order in which it is removed from the stack is the reverse of how it was added. When initializing a stack, you use brackets whether you're starting with an empty stack or not.
+Because stacks keep track of the order data is added, the order in which it is removed from the stack is the reverse of how it was added. When initializing a stack, you use brackets whether you're starting with an empty stack or not, like so:
+
+```python
+my_stack = []
+```
+or
+```python
+my_stack = [1, 4, 6, 2, 8]
+```
 
 Say you're writing and essay on your computer and you accidentally delete the last few sentences you wrote, so you hit the undo button to get your work back. The undo button only works because the word processor uses a stack to keep track of all of the edits you make. Everything you type is added to the stack, and the undo button pulls the last letters you typed off the stack and puts them back in your document.
 
@@ -24,7 +32,7 @@ ex_stack.append(data)
 data = ex_stack.pop()
 ```
 
-**Size**: the size function prints the number of items the stack contains. Python code example: 
+**Size**: The size function prints the number of items the stack contains. Python code example: 
 
 ```python
 size = len(ex_stack)

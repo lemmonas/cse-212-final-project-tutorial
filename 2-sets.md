@@ -6,7 +6,13 @@ Next up is sets. Sets don't keep track of the order data is added like stacks do
 
 ## How it works
 
-Sets use something called hashing to assign each piece of data a location within the set. Because everything has an assigned location, data that has already been inserted can't be inserted a second time. When initializing a set, you use curly braces if you're already filling the set and parenthesis with `set` in front of them for an empty set, like so:
+Sets use something called hashing to assign each piece of data a location within the set. Because everything has an assigned location, data that has already been inserted can't be inserted a second time. When initializing a set, you use curly braces if you're already filling the set 
+
+```python
+my_set = {2, 4, 6, 8}
+```
+
+and parenthesis with `set` in front of them for an empty set, like so:
 
 ```python
 my_set = set()
@@ -77,6 +83,14 @@ The `length` variable holds the original length of the set containing who's sign
 ## Example problem
 
 Suppose you have been assigned to write a program that keeps track of what letters a player has guessed in an online hangman game, and also gives the appropriate responses to each letter guessed.
+
+Sample responses:
+
+* Letter has already been guessed.
+
+* You've guessed a correct letter!
+
+* Sorry, that letter isn't in the word.
 
 [Example solution file](set-ex-solution.py)
 
